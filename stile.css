@@ -171,5 +171,46 @@ footer {
   text-decoration: underline;
 }
 
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #eaeaea;
+}
+
+.menu li {
+  margin: 5px 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 8px 12px;
+  color: #333;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.menu a:hover {
+  background-color: #d1001c;
+  color: white;
+}
+
+/* Responsive: impacchetta il menu su schermi piccoli */
+@media screen and (max-width: 600px) {
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 8px 0;
+  }
+}
+
+
+
 
 
