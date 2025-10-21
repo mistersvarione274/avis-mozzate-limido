@@ -22,6 +22,7 @@ header img {
 .logo-avis {
   height: 80px;
   margin-bottom: 1rem;
+  box-shadow: 0 0 10px white;
 }
 
 
@@ -103,14 +104,6 @@ li {
   border-radius: 4px;
 }
 
-/* Mappa */
-.mappa iframe {
-  width: 100%;
-  height: 300px;
-  border: none;
-  margin-top: 1rem;
-  border-radius: 4px;
-}
 
 /* Footer */
 footer {
