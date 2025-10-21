@@ -151,10 +151,11 @@ footer {
   border-radius: 6px;
 }
 .sottotitolo-logo {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #005bac; /* blu AVIS */
   font-weight: 600;
-  margin-top: 0.3rem;
+  margin-top: -0.5rem; /* avvicina al logo */
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
