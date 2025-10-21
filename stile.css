@@ -26,11 +26,12 @@ header img {
 
 
 header {
-  background-color: #005bac; /* blu AVIS */
+  background-color: #005bac; /* Blu AVIS */
   color: white;
   padding: 2rem 1rem;
   text-align: center;
 }
+
 
 header h1 {
   font-size: 2rem;
