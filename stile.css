@@ -153,4 +153,24 @@ footer {
   text-align: center;
 }
 
+#download ul {
+  list-style: none;
+  padding: 0;
+}
+
+#download li {
+  margin-bottom: 0.8rem;
+}
+
+#download a {
+  color: #005bac;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#download a:hover {
+  text-decoration: underline;
+}
+
+
 
