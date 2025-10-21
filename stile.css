@@ -150,3 +150,12 @@ footer {
   box-shadow: 0 0 8px rgba(0,0,0,0.15);
   border-radius: 6px;
 }
+.sottotitolo-logo {
+  font-size: 1.1rem;
+  color: #005bac; /* blu AVIS */
+  font-weight: 600;
+  margin-top: 0.3rem;
+  text-align: center;
+}
+
+
