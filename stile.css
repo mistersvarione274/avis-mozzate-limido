@@ -210,6 +210,23 @@ footer {
   }
 }
 
+.donazioni-section {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.numero-donazioni {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #b30000;
+}
+
+
 
 
 
