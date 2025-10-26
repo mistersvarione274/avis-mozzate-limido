@@ -210,28 +210,30 @@ footer {
   }
 }
 
-.donazioni-section {
-  width: 100%;
-  max-width: 800px; /* o il valore usato per gli altri box */
-  margin: 0 auto;
+.donazioni-box {
+  background-color: #ffffff;
   padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
   box-sizing: border-box;
-  background-color: #ffffff !important; /* opzionale, per uniformità visiva */
-  border-radius: 8px;        /* opzionale, se gli altri box lo usano */
-
-}
-
-.numero-donazioni {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 10px;
-
+  text-align: left;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 #counter {
-  display: inline;
+  display: inline-block;
   font-weight: bold;
+  font-size: 2.5rem;
+  color: #c8102e; /* rosso AVIS */
+  transition: transform 0.3s ease-in-out;
+  transform-origin: bottom;
 }
+
+
+
 
 
 
