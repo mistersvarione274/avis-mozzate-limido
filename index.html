@@ -146,9 +146,31 @@
     <p>&copy; 2025 AVIS Mozzate–Limido C. | Sito creato da MC74</p>
   </footer>
 
+<script>
+  let count = 0;
+  const target = 327;
+  const counter = document.getElementById("counter");
+
+  const interval = setInterval(() => {
+    if (count < target) {
+      count++;
+      counter.textContent = count + " 😎";
+      counter.style.transform = "rotateX(20deg)";
+      setTimeout(() => {
+        counter.style.transform = "rotateX(0deg)";
+      }, 150);
+    } else {
+      clearInterval(interval);
+    }
+  }, 30);
+</script>
+
+
+	
 </body>
 
 </html>
+
 
 
 
