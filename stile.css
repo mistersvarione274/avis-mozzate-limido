@@ -216,7 +216,7 @@ footer {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #f9f9f9; /* opzionale, per uniformità visiva */
+  background-color: #ffffff; /* opzionale, per uniformità visiva */
   border-radius: 8px;        /* opzionale, se gli altri box lo usano */
 
 }
@@ -227,6 +227,7 @@ footer {
   margin-top: 10px;
 
 }
+
 
 
 
