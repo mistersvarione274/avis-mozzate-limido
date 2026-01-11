@@ -1,249 +1,93 @@
-/* Reset base */
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  color: #333;
 }
-
-/* Corpo del sito */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #cfd8dc;
-  color: #222;
-  line-height: 1.6;
-}
-
-/* Header e logo */
-header img {
-  height: 60px;
-  margin-right: 1rem;
-}
-
-.logo-avis {
-  height: 80px;
-  margin-bottom: 1rem;
-}
-
 
 header {
-  background-color: #005bac; /* Blu AVIS */
-  color: white;
-  padding: 2rem 1rem;
-  text-align: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
 }
 
-
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-header p {
-  font-size: 1.1rem;
-}
-
-/* Navigazione */
-nav ul {
-  list-style: none;
+.logo {
   display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h1 {
+  color: #d6001c;
+  font-size: 1.5em;
+}
+
+.contact {
+  text-align: right;
+  font-size: 0.9em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
   justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
 }
 
 nav a {
+  text-decoration: none;
+  color: #005baa;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #e6f0ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2em;
+  color: #005baa;
+}
+
+.cta-button {
+  background-color: #d6001c;
   color: white;
+  padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
+  border-radius: 5px;
 }
 
-nav a:hover {
-  color: #ffe066;
+.intro {
+  padding: 40px 20px;
+  text-align: center;
 }
 
-/* Sezioni */
-section {
-  padding: 3rem 1.5rem;
-  max-width: 1000px;
-  margin: auto;
-  background-color: white;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+.info-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
 }
 
-h2 {
-  color: #003f87; /* Blu AVIS */
-  margin-bottom: 1rem;
+.box {
+  text-align: center;
 }
 
-h3 {
-  color: #0056b3;
-  margin-top: 1.5rem;
-  margin-bottom: 0.5rem;
+.box img {
+  width: 60px;
+  margin-bottom: 10px;
 }
 
-ul {
-  margin-left: 1.5rem;
-  margin-top: 0.5rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* Call to action */
-.cta {
-  background-color: #cfd8dc;
-  border-left: 5px solid #d62828;
-  padding: 1rem;
-  margin-top: 1.5rem;
-  border-radius: 4px;
-}
-
-
-/* Footer */
 footer {
-  background-color: #003f87;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  section {
-    padding: 2rem 1rem;
-  }
-}
-
-/* =========================
-   LOCANDINA EVENTO
-   ========================= */
-
-.locandina {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
-}
-
-.locandina-img {
-  max-width: 400px;
-  width: 80%;
-  height: auto;
-  box-shadow: 0 0 8px rgba(0,0,0,0.15);
-  border-radius: 6px;
-}
-.sottotitolo-logo {
-  font-size: 1.4rem;
-  color: #005bac; /* blu AVIS */
-  font-weight: 600;
-  margin-top: -0.5rem; /* avvicina al logo */
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-#download ul {
-  list-style: none;
-  padding: 0;
-}
-
-#download li {
-  margin-bottom: 0.8rem;
-}
-
-#download a {
-  color: #005bac;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-#download a:hover {
-  text-decoration: underline;
-}
-
-.menu ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #eaeaea;
-}
-
-.menu li {
-  margin: 5px 10px;
-}
-
-.menu a {
-  text-decoration: none;
-  padding: 8px 12px;
-  color: #333;
-  font-weight: bold;
-  border-radius: 4px;
-}
-
-.menu a:hover {
-  background-color: #d1001c;
-  color: white;
-}
-
-/* Responsive: impacchetta il menu su schermi piccoli */
-@media screen and (max-width: 600px) {
-  .menu ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu li {
-    margin: 8px 0;
-  }
-}
-
-.donazioni-box {
-  background-color: #ffffff;
+  background-color: #eee;
   padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  box-sizing: border-box;
-  text-align: left;
-  font-size: 1.5rem;
-  color: #333;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 0.9em;
 }
-
-#counter {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 2.5rem;
-  color: #c8102e; /* rosso AVIS */
-  transition: transform 0.3s ease-in-out;
-  transform-origin: bottom;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
